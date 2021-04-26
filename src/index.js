@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <React.Fragment>
+    <h1>Bollywood Songs</h1>
+    <p>My All Time Favroutes</p>
+    <ol>
+      <li>Chaiya chaiya</li>
+      <li>Ae Mere Hamsafar </li>
+      <li>Jab Koi Baat Bigad Jaye</li>
+      <li>Zindgi Ki Yahi Reet Hai </li>
+    </ol>
+  </React.Fragment>,
   document.getElementById('root')
 );
 
